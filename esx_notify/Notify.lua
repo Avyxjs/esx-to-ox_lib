@@ -33,7 +33,7 @@ local function Notify(notificatonType, length, message)
 end
 
 
-exports('Notify', Notify)
+ exports('Notify', Notify)
 RegisterNetEvent("ESX:Notify", Notify)
 
 if Debug then
