@@ -10,7 +10,7 @@ end
 local function HideUI()
    if not isShowing then return end
    isShowing = false
-    lib.hideTextUI(message)
+     lib.hideTextUI(message)
 end
 
 exports('TextUI', TextUI)
